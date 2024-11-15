@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evoting.gov.in</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Your Custom Stylesheet (optional) -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <style> 
+        /* Custom styles */
+        body {
+            background-color: #F0F8FF; /* Light blue background */
+        }
+        .container {
+            background-color: #FFFFFF; /* White background for the form container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        h1, h2 {
+            color: #0D3B66; /* Dark blue color */
+        }
+        #log {
+            background-color: #0D3B66; /* Dark blue for login header */
+            color: white;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        #loginbtn {
+            width: 100%;
+            background-color: #0D3B66; /* Dark blue for button */
+            color: white;
+        }
+        input::placeholder {
+            color: gray;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="text-center mb-4">
+            <img src="images/logo3.png" alt="Logo" class="mb-4">
+            <h1>Online Voting System</h1>
+            <hr>
+        </div>
+
+        <!-- Login Form -->
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="api/login.php" method="POST">
+                    <div id="log" class="text-center mb-3">
+                        <h2>Login</h2>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mobile">Mobile:</label>
+                        <input type="phone" class="form-control" id="mobile" name="mobile" placeholder="Enter mobile" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="role">Select Role:</label>
+                        <select name="role" id="role" class="form-control">
+                            <option value="select" selected>Select Role</option>
+                            <option value="voter">Voter</option>
+                            <option value="party">Party</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" id="loginbtn" class="btn mt-3">Login</button>
+                    
+                    <div class="text-center mt-3">
+                        New user? <a href="pages/register.html">Register here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
