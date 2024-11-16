@@ -21,3 +21,9 @@ User Roles:<br></b>
 <h4>Session Control:</h4> If a session expires or if the user is not logged in, they are redirected to the login page to ensure only authorized users can vote.
 <h4>Data Validation:</h4> The input fields (e.g., mobile number, password) are validated to ensure accurate and valid data entry.
 <h2>Snapshots of the project</h2>
+
+![Screenshot 2024-11-16 152855](https://github.com/user-attachments/assets/ade397a3-c748-4644-a47e-b92ef9b1e3a8)
+![Screenshot 2024-11-16 152921](https://github.com/user-attachments/assets/acb59b12-b650-495a-abcb-84f4e8a0ab0e)
+![Screenshot 2024-11-16 153534](https://github.com/user-attachments/assets/3b226ef8-2b51-4fe9-ae0e-c0d6e7cbfde8)
+![Screenshot 2024-11-16 153605](https://github.com/user-attachments/assets/d907734c-1e37-48da-9b0f-006bbf6e6654)
+![image](https://github.com/user-attachments/assets/81ae6c8d-e75b-46b9-9451-42264ebb3fa8)
