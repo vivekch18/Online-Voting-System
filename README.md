@@ -1,5 +1,5 @@
 # Online-Voting-System
-The Online Voting System provides a secure and user-friendly interface for voters to participate in elections remotely. The system allows eligible voters to view available political parties and cast their vote electronically, which makes the voting process more efficient and accessible. The project aims to provide a platform for modern electoral practices that can be utilized in local, state, or national elections.<br>
+The Online Voting System provides a secure and user-friendly interface for voters to participate in elections remotely. The system allows eligible voters to view available political parties and cast their votes electronically, which makes the voting process more efficient and accessible. The project aims to provide a platform for modern electoral practices that can be utilized in local, state, or national elections.<br>
 <h3>Key Features</h3>
 <b>User Authentication:<br>
 Dashboard for Voters:<br>
